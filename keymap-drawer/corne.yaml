@@ -20,9 +20,9 @@ layers:
   - F
   - G
   - H
-  - J
-  - K
-  - {t: L, h: '['}
+  - {t: J, h: '['}
+  - {t: K, h: '='}
+  - {t: L, h: Sft+-}
   - ;
   - ''''
   - $$mdi:apple-keyboard-shift$$
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - Esc
+  - DELETE
   - $$mdi:apple-keyboard-command$$
   - '1'
   - ␣
