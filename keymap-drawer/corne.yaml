@@ -37,56 +37,13 @@ layers:
   - .
   - /
   - DELETE
-  - $$mdi:apple-keyboard-command$$
-  - '1'
+  - {t: LEFT GUI, h: CAPSLOCK}
+  - '02'
   - ␣
   - ⏎
-  - '2'
+  - '01'
   - $$mdi:apple-keyboard-option$$
-  '1':
-  - {t: ▽, type: trans}
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↑
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
+  '01':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,9 +80,52 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - '&studio_unlock'
+  - {t: LEFT GUI, h: CAPSLOCK}
+  - '02'
+  - ␣
+  - ⏎
+  - {t: '01', type: held}
+  - $$mdi:apple-keyboard-option$$
+  '02':
+  - {t: ▽, type: trans}
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ↑
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
   - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LEFT GUI, h: CAPSLOCK}
+  - {t: '02', type: held}
+  - ␣
+  - ⏎
+  - '01'
+  - $$mdi:apple-keyboard-option$$
