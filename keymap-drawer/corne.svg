@@ -393,7 +393,6 @@ rect.held, rect.combo.held {
 </a></g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 75%">&amp;tdenter</tspan></text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -455,7 +454,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="266" y="26" width="28" height="26" class="combo"/>
-<text x="280" y="38" class="combo tap"><tspan style="font-size: 67%">&amp;tddelete</tspan></text>
+<text x="280" y="38" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -674,7 +673,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="266" y="26" width="28" height="26" class="combo"/>
-<text x="280" y="38" class="combo tap"><tspan style="font-size: 67%">&amp;tddelete</tspan></text>
+<text x="280" y="38" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -911,7 +910,7 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="266" y="26" width="28" height="26" class="combo"/>
-<text x="280" y="38" class="combo tap"><tspan style="font-size: 67%">&amp;tddelete</tspan></text>
+<text x="280" y="38" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>

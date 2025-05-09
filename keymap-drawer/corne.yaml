@@ -39,7 +39,7 @@ layers:
   - DELETE
   - $$mdi:apple-keyboard-option$$
   - '1'
-  - '&tdenter'
+  - ''
   - ⏎
   - '2'
   - {t: RIGHT SHIFT, h: CAPSLOCK}
@@ -152,4 +152,4 @@ combos:
 - p: [12, 13]
   k: '&Love'
 - p: [4, 5]
-  k: '&tddelete'
+  k: DELETE

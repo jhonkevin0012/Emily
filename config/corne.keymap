@@ -42,15 +42,6 @@
 
             tapping-term-ms = <200>;
         };
-
-        tdenter: td_enter {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_ENTER";
-            #binding-cells = <0>;
-            bindings = <&kp SPACE>, <&kp ENTER>;
-
-            tapping-term-ms = <200>;
-        };
     };
 
     combos {
@@ -108,7 +99,7 @@
         };
 
         MCDelete {
-            bindings = <&tddelete>;
+            bindings = <&kp DELETE>;
             key-positions = <4 5>;
         };
     };
@@ -124,7 +115,7 @@
         Love: Abracito {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(Y) &kp A &kp SPACE &kp T &kp E &kp SPACE &kp D &kp I &kp J &kp E &kp SPACE &kp Q &kp U &kp E &kp SPACE &kp T &kp E &kp SPACE &kp Q &kp U &kp I &kp E &kp R &kp O &kp QMARK>;
+            bindings = <&kp LS(Y) &kp A &kp SPACE &kp T &kp E &kp SPACE &kp D &kp I &kp J &kp E &kp SPACE &kp Q &kp U &kp E &kp SPACE &kp T &kp E &kp SPACE &kp Q &kp U &kp I &kp E &kp R &kp O &kp RS(MINUS)>;
             label = "ABRACITO";
         };
     };
@@ -142,10 +133,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T       &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G       &kp H    &hmr LEFT_BRACKET J  &hmr EQUAL K               &hmr RS(MINUS) L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B       &kp N    &kp M                &kp COMMA                  &kp DOT           &kp FSLH  &kp DELETE
-                         &kp LALT  &mo 1  &tdenter    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T    &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G    &kp H    &hmr LEFT_BRACKET J  &hmr EQUAL K               &hmr RS(MINUS) L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B    &kp N    &kp M                &kp COMMA                  &kp DOT           &kp FSLH  &kp DELETE
+                         &kp LALT  &mo 1  &none    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
             >;
         };
 
