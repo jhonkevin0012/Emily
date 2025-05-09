@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   BAS:
-  - {t: ↹, h: ESCAPE}
+  - ↹
   - Q
   - W
   - E
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '1', type: held}
-  - ␣
+  - {t: ▽, type: trans}
   - ⏎
   - '2'
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - '1'
-  - ␣
+  - {t: ▽, type: trans}
   - ⏎
   - {t: '2', type: held}
   - {t: ▽, type: trans}
@@ -139,3 +139,15 @@ combos:
   k: F2
 - p: [16, 15]
   k: F5
+- p: [3, 4]
+  k: F4
+- p: [32, 33]
+  k: F12
+- p: [20, 21]
+  k: F11
+- p: [27, 28]
+  k: F6
+- p: [0, 1]
+  k: ESCAPE
+- p: [12, 13]
+  k: '&Love'
