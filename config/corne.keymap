@@ -34,11 +34,11 @@
             tapping-term-ms = <180>;
         };
 
-        tddelete: td_delete {
+        tdenter: td_enter {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_DELETE";
+            label = "TD_ENTER";
             #binding-cells = <0>;
-            bindings = <&kp T>, <&kp DELETE>;
+            bindings = <&kp SPACE>, <&kp ENTER>;
 
             tapping-term-ms = <200>;
         };
@@ -133,10 +133,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T    &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G    &kp H    &hmr LEFT_BRACKET J  &hmr EQUAL K               &hmr RS(MINUS) L  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B    &kp N    &kp M                &kp COMMA                  &kp DOT           &kp FSLH  &kp DELETE
-                         &kp LALT  &mo 1  &none    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
+&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T       &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G       &kp H    &hmr LEFT_BRACKET J  &hmr EQUAL K               &hmr RS(MINUS) L  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B       &kp N    &kp M                &kp COMMA                  &kp DOT           &kp FSLH  &kp DELETE
+                         &kp LALT  &mo 1  &tdenter    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
             >;
         };
 
