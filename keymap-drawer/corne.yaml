@@ -6,7 +6,7 @@ layers:
   - W
   - E
   - R
-  - '&TDDelete'
+  - '&tddelete'
   - Y
   - U
   - I
@@ -39,7 +39,7 @@ layers:
   - DELETE
   - $$mdi:apple-keyboard-option$$
   - '1'
-  - ␣
+  - '&tdenter'
   - ⏎
   - '2'
   - {t: RIGHT SHIFT, h: CAPSLOCK}
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT GUI
+  - {t: ▽, type: trans}
   - {t: '1', type: held}
   - ␣
   - ⏎
@@ -123,7 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - PRINTSCREEN
   - '&studio_unlock'
-  - LEFT GUI
+  - {t: ▽, type: trans}
   - '1'
   - ␣
   - ⏎
