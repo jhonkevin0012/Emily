@@ -21,7 +21,7 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
         };
 
         hmr: homewrow_mods_right {
@@ -31,7 +31,54 @@
 
             #binding-cells = <2>;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
+        };
+
+        TDDelete: TDDelete {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TDDELETE";
+            #binding-cells = <0>;
+            bindings = <&kp T>, <&kp DELETE>;
+
+            tapping-term-ms = <180>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        LWindows {
+            bindings = <&kp LGUI>;
+            key-positions = <26 25>;
+            layers = <0>;
+        };
+
+        MCkebimsky {
+            bindings = <&Kebimsky>;
+            key-positions = <5 6>;
+        };
+
+        MCF2 {
+            bindings = <&kp F2>;
+            key-positions = <14 15>;
+        };
+
+        MCF5 {
+            bindings = <&kp F5>;
+            key-positions = <16 15>;
+        };
+    };
+
+    macros {
+        Kebimsky: WdIzq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&Kebimsky>,
+                <&macro_press>,
+                <&kp LS(K) &kp E &kp B &kp I &kp M &kp S &kp K &kp Y &kp Y>;
+
+            label = "WDIZQ";
         };
     };
 
@@ -48,10 +95,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&hml ESCAPE TAB  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
+&hml ESCAPE TAB  &kp Q  &kp W  &kp E     &kp R  &TDDelete    &kp Y    &kp U                &kp I                      &kp O             &kp P     &kp BSPC
 &kp LCTRL        &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &hmr LEFT_BRACKET J  &hmr EQUAL K               &hmr RS(MINUS) L  &kp SEMI  &kp SQT
 &kp LSHFT        &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M                &kp COMMA                  &kp DOT           &kp FSLH  &kp DELETE
-                               &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
+                               &kp LALT  &mo 1  &kp SPACE    &kp RET  &mo 2                &hmr CAPSLOCK RIGHT_SHIFT
             >;
         };
 
