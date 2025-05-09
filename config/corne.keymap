@@ -82,7 +82,7 @@
         Kebimsky: WdIzq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(K) &kp E &kp B &kp I &kp M &kp S &kp K &kp Y &kp Y>;
+            bindings = <&kp LS(K) &kp E &kp B &kp I &kp M &kp S &kp K &kp Y>;
             label = "WDIZQ";
         };
     };
