@@ -39,7 +39,7 @@ layers:
   - DELETE
   - $$mdi:apple-keyboard-option$$
   - '1'
-  - '&tdenter'
+  - ␣
   - ⏎
   - '2'
   - {t: RIGHT SHIFT, h: CAPSLOCK}
@@ -137,19 +137,28 @@ combos:
   k: '&Kebimsky'
 - p: [14, 15]
   k: F2
+  l: [BAS]
 - p: [16, 15]
   k: F5
+  l: [BAS]
 - p: [3, 4]
   k: F4
+  l: [BAS]
 - p: [32, 33]
   k: F12
+  l: [BAS]
 - p: [20, 21]
   k: F11
+  l: [BAS]
 - p: [27, 28]
   k: F6
+  l: [BAS]
 - p: [0, 1]
   k: ESCAPE
-- p: [12, 13]
+  l: ['1']
+- p: [12, 23]
   k: '&Love'
+  l: ['2']
 - p: [4, 5]
   k: DELETE
+  l: [BAS]
