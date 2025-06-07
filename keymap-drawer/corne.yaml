@@ -155,7 +155,7 @@ combos:
   l: [BAS]
 - p: [0, 1]
   k: ESCAPE
-  l: ['1']
+  l: ['1', BAS]
 - p: [12, 23]
   k: '&Love'
   l: ['2']
