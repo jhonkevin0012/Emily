@@ -151,28 +151,28 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT    &trans   &trans    &kp UP    &trans     &trans  &trans
-&trans        &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS        &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp CAPSLOCK  &kp N0           &kp N1  &kp N2  &kp N3  &kp DOT            &trans   &trans    &trans    &trans     &trans  &trans
-                                       &trans  &mo 1   &trans             &kp RET  &mo 2     &trans
+&kp ESCAPE    &kp KP_DIVIDE    &kp N7  &kp N8  &kp N9  &kp KP_SUBTRACT    &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans        &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6  &kp KP_PLUS        &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&kp CAPSLOCK  &kp N0           &kp N1  &kp N2  &kp N3  &kp DOT            &trans  &trans    &trans    &trans     &trans  &trans
+                                       &trans  &mo 1   &trans             &trans  &mo 2     &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans    &trans   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &trans
-&trans  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACE        &trans  &trans    &trans   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans
-&trans  &trans       &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans    &trans   &trans          &trans          &trans           &kp PRINTSCREEN  &studio_unlock
-                                           &trans                 &mo 1   &trans    &kp RET  &mo 2           &trans
+&trans  &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans           &trans
+&trans  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACE        &trans  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &trans
+&trans  &trans       &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans    &trans  &trans          &trans          &trans           &kp PRINTSCREEN  &studio_unlock
+                                           &trans                 &mo 1   &trans    &trans  &mo 2           &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp K_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp C_PREVIOUS  &kp K_PLAY_PAUSE      &kp C_NEXT            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans
-                        &trans  &mo 1   &trans    &kp RET  &mo 2           &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_MUTE      &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp C_PREVIOUS  &kp K_PLAY_PAUSE      &kp C_NEXT            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans
+                        &trans  &mo 1   &trans    &trans  &mo 2           &mo 3
             >;
         };
     };
